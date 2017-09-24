@@ -15,6 +15,8 @@ Baixando este exemplo você vai encontrar o uso de:
  - CGFloat
  - arc4random_uniform
 
+## Screenshots
+Veja na pasta "screenshots" na raíz.
 
 ## Construído utilizando
 
