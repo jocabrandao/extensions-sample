@@ -12,6 +12,8 @@
 		C04A05861F7818FF000E8DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04A05841F7818FF000E8DB7 /* Main.storyboard */; };
 		C04A05881F7818FF000E8DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04A05871F7818FF000E8DB7 /* Assets.xcassets */; };
 		C04A058B1F7818FF000E8DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04A05891F7818FF000E8DB7 /* LaunchScreen.storyboard */; };
+		C04A05951F781C13000E8DB7 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A05941F781C13000E8DB7 /* UIButtonExt.swift */; };
+		C04A05971F78209B000E8DB7 /* NumberHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A05961F78209B000E8DB7 /* NumberHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C04A05871F7818FF000E8DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04A058A1F7818FF000E8DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04A058C1F781900000E8DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04A05941F781C13000E8DB7 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		C04A05961F78209B000E8DB7 /* NumberHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		C04A057F1F7818FF000E8DB7 /* extensions-sample */ = {
 			isa = PBXGroup;
 			children = (
+				C04A05931F781BD6000E8DB7 /* Helpers */,
+				C04A05921F781BBE000E8DB7 /* Extensions */,
 				C04A05801F7818FF000E8DB7 /* AppDelegate.swift */,
 				C04A05821F7818FF000E8DB7 /* ViewController.swift */,
 				C04A05841F7818FF000E8DB7 /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				C04A058C1F781900000E8DB7 /* Info.plist */,
 			);
 			path = "extensions-sample";
+			sourceTree = "<group>";
+		};
+		C04A05921F781BBE000E8DB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C04A05941F781C13000E8DB7 /* UIButtonExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C04A05931F781BD6000E8DB7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C04A05961F78209B000E8DB7 /* NumberHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04A05831F7818FF000E8DB7 /* ViewController.swift in Sources */,
+				C04A05951F781C13000E8DB7 /* UIButtonExt.swift in Sources */,
+				C04A05971F78209B000E8DB7 /* NumberHelper.swift in Sources */,
 				C04A05811F7818FF000E8DB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
